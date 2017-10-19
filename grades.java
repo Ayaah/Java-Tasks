@@ -18,21 +18,21 @@ public class grades {
         int  g =  se.nextInt();
         if (g<0||g>100){
             System.out.println("You enterd wrong grade ");
-        
+        return  ;
         }
         
         
         if (g<=100&&g>=90){
             System.out.println("youre grade is : A ");
-        }else if(g>=80&&g<90 ) {
+        }else if(g>=80 ) {
             System.out.println("youre grade is : B ");
         
-           }else if(g>=70&&g<80 ) {
+           }else if(g>=70 ) {
             System.out.println("youre grade is : c ");
            
-           }else if(g>=60&&g<70 ) {
+           }else if(g>=60 ) {
             System.out.println("youre grade is : f ");
-            }else if(g>=0&&g<60 ){
+            }else {
             System.out.println("youre grade is : Raseb  ");
             
 
